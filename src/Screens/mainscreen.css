@@ -1,0 +1,32 @@
+.Intro {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contentholder{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+h2{
+    font-size: 40px;
+    font-style: bold;
+}
+.CardContainer {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .CardContainer {
+      max-width: 100%;
+    }
+  }
+  

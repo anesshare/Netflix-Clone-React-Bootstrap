@@ -1,0 +1,11 @@
+.dd{
+    width: 30px;
+    height: 5%;
+}
+.btn{
+    border-radius: 20px;
+
+}
+.btn:hover{
+    background-color: white;
+}
